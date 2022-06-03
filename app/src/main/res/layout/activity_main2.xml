@@ -71,16 +71,6 @@
         app:srcCompat="@drawable/ellipse_1" />
 
     <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="68dp"
-        android:layout_marginTop="36dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/rectangle_9" />
-
-    <ImageView
         android:id="@+id/imageView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -134,9 +124,11 @@
         android:id="@+id/imageView16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/rectangle_2__1_"
-        tools:layout_editor_absoluteX="152dp"
-        tools:layout_editor_absoluteY="340dp" />
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="340dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rectangle_2__1_" />
 
     <ImageView
         android:id="@+id/imageView15"
